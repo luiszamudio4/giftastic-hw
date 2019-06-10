@@ -10,21 +10,29 @@
 </head>
 <body>
     <!--Add tittle to the page-->
-    <h1>Cars</h1>
+    <div class="container">
+        <h1>Soccer Teams</h1>
 
-    <!-- Buttons will be added here -->
+        <!-- Buttons will be added here -->
+        <div id="buttons-view"></div>
+
+        <form id="soccer-form">
+            <label for="soccer-input">Add a soccer team</label>
+            <input type="text" id="soccer-input">
+        </form>
+        <br>
+
+        <!-- Button triggers new gifs to be shown -->
+        <input id="add-soccer-team" type="submit" value="Add a soccer team">
+
+        <!-- Gifs will be shown here -->
+        <div id="soccer-view"></div>
 
 
-    <!-- Button triggers new gifs to be shown -->
 
 
-    <!-- Gifs will be shown here -->
-
-
-
-
-
-    <!-- javascript reference goes here-->
-    <script type=text/javascript href="app.js"> </script>
+        <!-- javascript reference goes here-->
+        <script type=text/javascript href="app.js"> </script>
+    </div>
 </body>
 </html>
