@@ -10,3 +10,4 @@ soccer-teams + "&api_key=wRjy6YL9zPsAUHvF5vd0Uf3F81I4CQyC"
 }
 
 
+// function for displaying soccer data
