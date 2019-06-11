@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+    
     <title>Gif Tastic</title>
 </head>
 <body>
@@ -18,18 +18,20 @@
 
         <form id="soccer-form">
             <label for="soccer-input">Add a soccer team</label>
-            <input type="text" id="soccer-input">
+            <input type="text" id="user-input">
         </form>
         <br>
 
         <!-- Button triggers new gifs to be shown -->
-        <input id="add-soccer-team" type="submit" value="Add a soccer team">
+        <input id="add-gif" type="submit" value="Add Soccer Team">
 
         <!-- Gifs will be shown here -->
-        <div id="soccer-view "></div>
+        <div id="gif-view"></div>
 
         <!-- javascript reference goes here-->
-        <script type=text/javascript href="app.js"> </script>
     </div>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+    <script src="app.js"></script>
+
 </body>
 </html>
